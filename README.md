@@ -32,6 +32,8 @@
 
 ![](california-house-pred/Capture5.PNG)
 
+10. We we wiil sent request in the above mentioned url mentioned in the get method it will predict the house price
+
 Finally..............
 
 ![](california-house-pred/Capture6.PNG)
