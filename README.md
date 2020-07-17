@@ -10,19 +10,30 @@
 
 4. Edit the handler.py and serverless.yml 
 
-![](california-house-pred/Capture.PNG)
-
 5. In hadler.py we need to load the weights we saved earlier 
+
+![](california-house-pred/Capture.PNG)
 
 ![](california-house-pred/Capture3.PNG)
 
-6. In order to test the handler.py run the file with do_main() function 
+6. In order to test the handler.py run the file with do_main() function and we can see the output in the terminal
 
 ![](california-house-pred/Capture1.PNG)
 
 7. To test the lambda function locally run the following command **sls invoke local --function predict-price --path event.json**   where event.json is created in the previous step
 
+![](california-house-pred/Capture2.jpg)
+
 8. Finally deploy the model  using sls deploy
 
-![](california-house-pred/Capture4_LI.PNG)
+![](california-house-pred/Capture4_LI.jpg)
+
+9. We can eve test the lambda function that uploaded using **sls invoke global --function predict-price --path event.json**
+
+![](california-house-pred/Capture5.PNG)
+
+Finally..............
+
+![](california-house-pred/Capture6.PNG)
+
 
