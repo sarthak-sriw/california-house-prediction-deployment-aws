@@ -2,9 +2,10 @@
 
 **Deploying AWS Lambda functions with the serverless framework is arguably the easiest way to deploy functions and configure how they get triggered. If you want to automate your function deployment, you will most likely do so via your CI/CD workflow. A CI/CD pipeline can be implemented in many different ways using a variety of tools (e.g., Jenkins, AWS etc)**
 
-``Getting started
-First install the serverless framework and generate a skeleton for a Python function:
+``
+Getting started
 
+First install the serverless framework and generate a skeleton for a Python function:
 npm install -g serverless
 
 ``
