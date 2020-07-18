@@ -22,7 +22,7 @@ The function is stored in the handler.py file and the manifest describing how to
 
 4. Edit the handler.py and serverless.yml 
 
-5. In hadler.py we need to load the weights we have created after running **Model Preparation.ipynb**
+5. In handler.py we need to load the weights we have created after running **Model Preparation.ipynb**
 
 ![](california-house-pred/Capture.PNG)
 
