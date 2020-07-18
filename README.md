@@ -14,6 +14,10 @@ npm install -g serverless
 
 3. Write the following cmd to initialize the handler.py(Lambda Function) and serverless.yml files **sls create --template aws-python3 --name california-housing**
 
+```
+The function is stored in the handler.py file and the manifest describing how to deploy the function and how it gets invoked is serverless.yml.
+```
+
 ![](california-house-pred/2.PNG)
 
 4. Edit the handler.py and serverless.yml 
